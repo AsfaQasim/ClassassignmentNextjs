@@ -1,6 +1,5 @@
 
 import cssstyle from './about.module.css'
-import react from "react"
 export default function About(){
    
    return(
