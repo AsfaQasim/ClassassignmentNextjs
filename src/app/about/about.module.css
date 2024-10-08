@@ -21,3 +21,37 @@
     background: #4677c5;
     border-radius: 100px;
 }
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .blue {
+        font-size: 1.2rem; /* Smaller font size on medium screens */
+        height: 90vh; /* Adjust the height */
+        padding: 20px; /* Add some padding */
+    }
+}
+
+@media (max-width: 768px) {
+    .blue {
+        font-size: 1rem; /* Smaller font size on smaller screens */
+        height: 80vh; /* Adjust the height */
+        padding: 15px; /* Add some padding */
+        border-radius: 5px; /* Less rounded corners */
+    }
+
+    .blues {
+        border-radius: 50px; /* Smaller radius for small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .blue {
+        font-size: 0.9rem; /* Small font size for mobile */
+        height: 70vh; /* Adjust height */
+        padding: 10px; /* Reduce padding */
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    .blues {
+        border-radius: 25px; /* Smaller border radius */
+    }
+}
